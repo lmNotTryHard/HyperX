@@ -1,0 +1,117 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #070709;
+}
+body::-webkit-scrollbar {
+    width: 12px;
+}
+body::-webkit-scrollbar-track {
+    background: #14141c;
+}
+body::-webkit-scrollbar-thumb {
+    background-color: rgb(82, 82, 82);
+    border-radius: 20px;
+}
+.header{
+    background-color: #020202;
+}
+.logo{
+    margin-left: 50px;
+}
+p{
+    text-shadow: 0 0 10px black;
+}
+
+.all-box{
+    display: flex;
+    flex-direction: column;
+}
+.box-1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    background-image: url(img/img-1.png);
+    height: 550px;
+    background-size: cover;
+}
+.txt-1{
+    width: 400px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #070709;
+}
+.txt-2{
+    width: 500px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-3{
+    display: flex;
+    align-items: center;
+    justify-content: start;
+
+
+    background-image: url(img/img-3.png);
+    background-size: cover;
+    height:500px;
+}
+.txt-3{
+    width: 400px;
+    margin-left: 100px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-4{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+
+    background-image: url(img/img-4.png);
+    background-size: cover;
+    height:500px;
+}
+.txt-4{
+    width: 350px;
+    margin-right: 100px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-5{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #070709;
+}
+.txt-5{
+    width: 200px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-6{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #070709;
+    height: 400px;
+}
+.txt-6{
+    width: 500px;
+    text-shadow: 0 0 100px #020202;
+}
+.box-7{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #020202;
+    height: 100px;
+}
+.txt-7{
+    text-align: center;
+}
