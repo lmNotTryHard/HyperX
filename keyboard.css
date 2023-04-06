@@ -37,7 +37,7 @@ p{
     justify-content: center;
     text-align: center;
 
-    background-image: url(img/img-1.png);
+    background-image: url(img-keyboard/img-1.png);
     height: 550px;
     background-size: cover;
 }
@@ -61,7 +61,7 @@ p{
     justify-content: start;
 
 
-    background-image: url(img/img-3.png);
+    background-image: url(img-keyboard/img-3.png);
     background-size: cover;
     height:500px;
 }
@@ -75,7 +75,7 @@ p{
     align-items: center;
     justify-content: end;
 
-    background-image: url(img/img-4.png);
+    background-image: url(imgkeyboard/img-4.png);
     background-size: cover;
     height:500px;
 }
